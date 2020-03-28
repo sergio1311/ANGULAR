@@ -1,0 +1,21 @@
+
+<table background="/frutitas.jpg">
+<div class="" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div  class="" role="document">
+        
+            <div class="">
+                <div id="mensajeAlertaUsuarios" ></div>
+                <h2 class=" text-info">Iniciar sesión</h2>
+                    <div class="position-relative  form-group"><label for="user" class="h5">Nombre de usuario</label><input [(ngModel)]="username" type="text" name="nombre" id="nombre" placeholder="Ejemplo:Mohamed" class="form-control form-control-sm"></div>
+                    <div class="position-relative form-group"><label for="pass" class="h5">Contraseña</label><input [(ngModel)]="password" type="password" name="pass" id="pass"  class="form-control form-control-sm"></div>
+                 
+            </div>
+            <div class="">
+                <button (click)="login()" type="button" class="btn mr-2 mb-2 btn-success" >Iniciar Sesion</button>
+   <br>
+                <button (click)="register()" type="button" class="btn mr-2 mb-2 btn-primary" >Registrar usuario </button>
+            </div>
+        
+    </div>
+</div>
+</table>
